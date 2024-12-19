@@ -79,9 +79,9 @@ const Header = () => {
       
       <div className='flex justify-around bg-green-200 text-black h-10 items-center'>
         <p className='cursor-pointer' onClick={()=>pageHnadler("trending")}>Trending</p>
-        <p className='cursor-pointer' onClick={()=>pageHnadler("flower")}>Trending</p>
-        <p className='cursor-pointer' onClick={()=>pageHnadler("indoorplant")}>Trending</p>
-        <p className='cursor-pointer' onClick={()=>pageHnadler("outdoorplant")}>Trending</p>
+        <p className='cursor-pointer' onClick={()=>pageHnadler("flower")}>Bookes</p>
+        <p className='cursor-pointer' onClick={()=>pageHnadler("indoorplant")}>Indoor</p>
+        <p className='cursor-pointer' onClick={()=>pageHnadler("outdoorplant")}>Outdoor</p>
       </div>
 
       {/* Main Header Content */}
